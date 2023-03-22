@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+test:
+  password: rrrfff
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    env:
+      show-values: always
